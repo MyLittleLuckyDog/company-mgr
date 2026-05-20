@@ -6,7 +6,7 @@
 set -euo pipefail
 
 # ── 사내 배포 시 이 값을 실제 서버 주소로 변경하세요 ──────────────────────────
-GITHUB_REPO="coocon/company-mgr"
+GITHUB_REPO="MyLittleLuckyDog/company-mgr"
 TOOLING_SERVER="${COMPANY_TOOLING_SERVER:-http://TOOLING_SERVER_IP:8080}"
 # ─────────────────────────────────────────────────────────────────────────────
 

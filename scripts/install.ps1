@@ -8,7 +8,7 @@
 #   .\install.ps1
 
 # ── 사내 배포 시 이 값을 실제 서버 주소로 변경하세요 ──────────────────────────
-$GITHUB_REPO   = "coocon/company-mgr"
+$GITHUB_REPO   = "MyLittleLuckyDog/company-mgr"
 $TOOLING_SERVER = if ($env:COMPANY_TOOLING_SERVER) { $env:COMPANY_TOOLING_SERVER } else { "http://TOOLING_SERVER_IP:8080" }
 # ─────────────────────────────────────────────────────────────────────────────
 
