@@ -1,0 +1,21 @@
+[package]
+name = "company-mgr"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "company-mgr"
+path = "src/main.rs"
+
+[dependencies]
+rmcp = { version = "1.7.0", features = ["server", "transport-io", "macros", "schemars"] }
+schemars = "1"
+tokio = { version = "1", features = ["full"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+anyhow = "1"
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter", "fmt"] }
+reqwest = { version = "0.12", features = ["json"] }
+chrono = { version = "0.4", features = ["serde"] }
+semver = "1"
